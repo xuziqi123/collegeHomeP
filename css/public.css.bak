@@ -1,0 +1,148 @@
+body{
+	width:1010px;
+	height:1050px;
+	background:url(../pic/main_bg.jpg) repeat-x;
+	}
+	.auto{
+		margin:0 0 0 150px;
+		}
+	#head{
+		width:1000px;
+		height:180px;
+		background:url(../pic/header.png);
+		position:relative;
+		}
+		#pic1{
+			margin:25px 0 0 15px;
+			position:absolute;
+			}
+			#pic2{
+			margin:20px 0 0 150px;
+			position:absolute;
+			}
+		#pic3{
+			margin:1px 0 0 630px;
+			position:absolute;
+			}
+			#name{
+				font-size:30px;
+				color:red;
+				font-family:¿¬Ìå;
+				margin:130px 0 0 350px;
+				position:absolute;
+				}
+		#title{
+			width:1000px;
+			height:40px;
+			background:#A8B3D7;
+			border:1px solid #27E7E7;
+			border-radius:5px 5px 5px 5px;
+			}	
+			#title>ul{margin-top:4px;position:relative;}
+			#title>ul>li{
+				width:80px;
+				height:27px;
+				float:left;
+				margin:0 0 0 2px;
+				list-style:none;
+				line-height:27px;
+				text-align:center;
+				border:1px solid #27E7E7;
+				border-radius:5px 5px 5px 5px;
+				}	
+			#title>ul>li:hover{
+						background:#27E7E7;
+						cursor:pointer;
+						}
+			#title>ul>li>ul{
+				width:40px;
+				list-style:none;
+				border:1px solid #27E7E7;
+				border-radius:5px 5px 5px 5px;
+				background:	#CEFFCE;
+				display:none;
+				position:absolute;
+				z-index:1;
+				}	
+				#title>ul>li>ul>li{
+					width:80px;
+					height:27px;
+					margin:0px 0 0 -45px;
+					list-style:none;
+					}
+				#title>ul>li>ul>li a{
+					text-decoration:none;
+					display:inline-block;
+					margin-right:-10px;
+					width:80px;
+					height:24px;
+					color:black;
+					}	
+					#title>ul>li>ul>li a:hover{
+						background:#90DDDD;
+						}	
+						#title>ul>li:hover ul{
+							display:block;
+							}
+
+#nav{
+		width:1000px;
+		height:40px;
+		background:#A8B3D7;
+		border-radius:10px 10px 10px 10px;
+		margin-top:0px;
+		position:relative;
+		}		
+		.time{
+			padding-left:10px;
+			margin:10px 0 0 20px;
+			color:black;
+			position:absolute;
+			float:left;
+			}	
+			#divm{
+				width:350px;
+				height:35px;
+				background:#A8B3D7;
+				float:left;
+				margin:0 0 0 300px;
+				position:absolute;
+				}
+				#marq{
+					font-size:26px;
+					font-family:¿¬Ìå;
+					color:red;
+					margin-left:5px;
+					font-weight:bold;
+					}
+					#form{
+						width:186px;
+						height:23px;
+						float:right;
+						margin:8px 20px 0 0;
+						background:url(../pic/1.gif);
+						}
+					#span{
+						font-size:16px;
+						color:black;
+						float:right;
+						margin:8px 30px 0px 0px;
+						}
+						#text{
+							width:145px;
+							height:16px;
+							line-height:14px;
+							border:none;
+							margin:3px 0px 3px 4px; 
+							}
+							#btn{
+							width:15px;
+							height:16px;
+							background:url(../pic/2.gif) center;
+							margin:2px 0 0 2px;
+							border:none;
+							cursor:pointer;
+								}
+							#nav,#btn,#text,#span,#form,#marq,#divm,#navp0{
+									z-index:0;
+									}			
